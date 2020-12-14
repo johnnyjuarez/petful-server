@@ -27,7 +27,6 @@ class Queue {
 
   dequeue() {
     // Remove some data from the queue.
-    console.log('reached delete in queue');
     if (this.first === null) {
       return;
     }

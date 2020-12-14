@@ -27,11 +27,9 @@ module.exports = {
   dequeue(type) {
     // Remove a pet from the queue.
     if (type === 'cat') {
-      console.log('reached cat delete');
       return pets.cats.dequeue();
     }
     if (type === 'dog') {
-      console.log('reached dog delete');
       return pets.dogs.dequeue();
     }
   },
